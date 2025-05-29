@@ -1,0 +1,3 @@
+<template>
+    Desktop view
+</template>

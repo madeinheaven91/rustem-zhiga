@@ -1,0 +1,3 @@
+<template>
+    Tablet view
+</template>
