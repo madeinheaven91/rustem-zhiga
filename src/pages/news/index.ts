@@ -1,2 +1,2 @@
-import News from './Main.vue'
-export default News
+import Index from './Index.vue'
+export default Index

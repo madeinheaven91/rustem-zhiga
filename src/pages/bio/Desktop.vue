@@ -5,7 +5,7 @@ import Navbar from '@/widgets/navbar'
 <template>
     <header class="relative p-7 flex gap-20 justify-between align-middle z-50">
         <RouterLink to="/" class="oswald-700 text-2xl"> РУСТЕМ ЖИГА </RouterLink>
-        <Navbar selected="contacts"/>
+        <Navbar selected="bio"/>
         <div class="flex gap-5 w-fit justify-center align-middle">
             <a href="https://www.youtube.com/@rustikzhiga/videos" target="_blank"><img src="@/assets/svg/youtube.svg"
                     class="invert size-6"></a>

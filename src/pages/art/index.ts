@@ -1,2 +1,2 @@
-import Art from './Main.vue'
-export default Art
+import Index from './Index.vue'
+export default Index

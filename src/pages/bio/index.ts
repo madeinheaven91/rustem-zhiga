@@ -1,2 +1,2 @@
-import Bio from './Main.vue'
-export default Bio
+import Index from './Index.vue'
+export default Index
