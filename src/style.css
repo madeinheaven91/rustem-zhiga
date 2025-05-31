@@ -1,5 +1,19 @@
 @import "tailwindcss";
 
+.oswald-700 {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.oswald-500 {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
 .merriweather-400 {
   font-family: "Merriweather", serif;
   font-optical-sizing: auto;
