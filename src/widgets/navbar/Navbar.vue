@@ -34,8 +34,7 @@ const contactsSelected = reactive({
     padding: 0 10px 0 10px;
 }
 
-.tab::after {
-    content: "";
+.tab::after { content: "";
     position: absolute;
     background-color: #ff5050;
     height: 100%;

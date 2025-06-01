@@ -3,7 +3,7 @@ import Navbar from '@/widgets/navbar'
 </script>
 
 <template>
-    <header class="relative p-7 flex gap-20 justify-between align-middle z-50">
+    <header class="fixed p-7 w-full flex gap-20 justify-between align-middle z-50">
         <RouterLink to="/" class="oswald-700 text-2xl"> РУСТЕМ ЖИГА </RouterLink>
         <Navbar selected="art"/>
         <div class="flex gap-5 w-fit justify-center align-middle">
