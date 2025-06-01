@@ -1,6 +1,5 @@
 services:
   rz-frontend:
-    container_name: frontend
     build:
       dockerfile: Dockerfile
     ports:
