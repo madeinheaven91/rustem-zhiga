@@ -13,7 +13,7 @@ onMounted(() => {
 <template>
     <div class="title">
         <div v-if="mounted" class="unfold w-50 md:w-80 h-px bg-white" />
-        <span v-if="mounted" class="fade-slide text-6xl md:text-7xl great-vibes mt-5">Рустем Жига</span>
+        <span v-if="mounted" class="fade-slide text-4xl md:text-6xl great-vibes mt-5">Рустем Жига</span>
     </div>
 </template>
 

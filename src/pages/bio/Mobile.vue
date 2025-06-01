@@ -5,7 +5,7 @@ import Footer from '@/widgets/footer'
 
 <template>
     <Sidebar selected="bio" />
-    <header class="p-4">
+    <header class="p-2">
         <RouterLink to="/" class="oswald-500 text-xl">РУСТЕМ ЖИГА</RouterLink>
     </header>
     <main>

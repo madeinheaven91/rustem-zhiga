@@ -25,7 +25,7 @@ const contactsSelected = reactive({
 </script>
 
 <template>
-    <img src="@/assets/svg/menu.svg" class="m-2 absolute invert size-12 z-10 right-0" @click="() => { isOn = true }">
+    <img src="@/assets/svg/menu.svg" class="m-2 absolute invert size-8 z-10 right-0" @click="() => { isOn = true }">
     <Transition>
         <div v-if='isOn' class="wrapper absolute v-screen w-screen z-20 flex justify-end">
             <div v-if='isOn' ref="sidebar"

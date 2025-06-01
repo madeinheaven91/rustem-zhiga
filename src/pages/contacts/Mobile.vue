@@ -5,11 +5,11 @@ import Footer from '@/widgets/footer'
 
 <template>
     <Sidebar selected="contacts" />
-    <header class="p-4">
+    <header class="p-2">
         <RouterLink to="/" class="oswald-500 text-xl">РУСТЕМ ЖИГА</RouterLink>
     </header>
-    <main class="h-screen px-15">
-        <div class="flex gap-5 flex-col justify-between pt-10">
+    <main class="h-screen p-10">
+        <div class="flex gap-5 flex-col justify-between">
             <div>
                 <h1 class="text-4xl">Организация концертов</h1>
                 <p class="mt-5">Концертное агенство ООО "Бебра"</p>
