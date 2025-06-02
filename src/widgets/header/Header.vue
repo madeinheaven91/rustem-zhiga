@@ -7,7 +7,7 @@ const props = defineProps<{
 </script>
 
 <template>
-    <Sidebar :selected="selected" />
+    <Sidebar :selected="props.selected" />
     <header class="p-2">
         <RouterLink to="/" class="oswald-500 text-xl">РУСТЕМ ЖИГА</RouterLink>
     </header>
