@@ -1,0 +1,83 @@
+@import "tailwindcss";
+
+
+:root {
+    font-family: Merriweather, serif;
+    @apply text-white;
+}
+
+body {
+    @apply bg-black;
+}
+
+@layer utilities {
+.oswald-700 {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.oswald-500 {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.merriweather-400 {
+  font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.caveat-400 {
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.great-vibes {
+  font-family: "Great Vibes", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+}
+
+@layer components {
+.light-gradient-first {
+    background: linear-gradient(167deg, #FFFBEB 50%, #F8EEDF 50%);
+}
+
+.light-gradient-second {
+    background: linear-gradient(167deg, #F8EEDF 50%, #FFFBEB 50%);
+}
+
+.dark-gradient-first {
+    background: linear-gradient(167deg, #111111 50%, #1a1515 50%)
+}
+
+.dark-gradient-second {
+    background: linear-gradient(167deg, #1a1515 50%, #111111  50%)
+}
+
+.dark-gradient-first * {
+    color: white;
+}
+
+.dark-gradient-second * {
+    color: white;
+}
+
+.light-to-dark-gradient {
+    background: linear-gradient(167deg, #F8EEDF 50%, #111111 50%)
+}
+
+.dark-to-light-gradient {
+    background: linear-gradient(167deg, #111111 50%, #F8EEDF 50%)
+}
+}

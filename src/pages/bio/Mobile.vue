@@ -1,13 +1,10 @@
 <script setup lang="ts">
-import Sidebar from '@/widgets/sidebar';
+import Header from '@/widgets/header';
 import Footer from '@/widgets/footer'
 </script>
 
 <template>
-    <Sidebar selected="bio" />
-    <header class="p-2">
-        <RouterLink to="/" class="oswald-500 text-xl">РУСТЕМ ЖИГА</RouterLink>
-    </header>
+    <Header selected="bio" />
     <main>
         <section class="px-10 light-gradient-first">
             <h1 class="pt-5 text-4xl">В начале была бебра...</h1>
@@ -41,7 +38,7 @@ import Footer from '@/widgets/footer'
             <p class="mt-3">Excepteur sint occaecat cupidatat non proident, sunt in culpa
                 qui officia deserunt mollit anim id est laborum.</p>
         </section>
-        <section class="px-10 transition-gradient py-5">
+        <section class="px-10 light-to-dark-gradient py-5">
             <img src="@/assets/rustem3.jpg" class="w-full border-4 mt-10">
         </section>
         <section class="px-10 dark-gradient-first">
@@ -75,34 +72,7 @@ header {
     background: #000;
 }
 
-.light-gradient-first {
-    background: linear-gradient(167deg, #FFFBEB 50%, #F8EEDF 50%);
-}
-
-.light-gradient-second {
-    background: linear-gradient(167deg, #F8EEDF 50%, #FFFBEB 50%);
-}
-
-.dark-gradient-first * {
-    color: white;
-}
-.dark-gradient-second * {
-    color: white;
-}
-
-.transition-gradient {
-    background: linear-gradient(167deg, #F8EEDF 50%, #111111 50%)
-}
-
-.dark-gradient-first {
-    background: linear-gradient(167deg, #111111 50%, #1a1515 50%)
-}
-
-.dark-gradient-second {
-    background: linear-gradient(167deg, #1a1515 50%, #111111  50%)
-}
-
-main * {
+main {
     color: black;
 }
 

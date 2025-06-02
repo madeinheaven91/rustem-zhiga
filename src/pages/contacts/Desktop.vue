@@ -14,9 +14,9 @@ import Footer from '@/widgets/footer'
             <img src="@/assets/svg/vk.svg" class="invert size-6">
         </div>
     </header>
-    <main class="h-screen px-30">
+    <main class="h-screen px-30 light-gradient-first">
         <div class="flex gap-5 justify-between pt-10">
-            <div>
+            <div class="text-xl">
                 <h1 class="text-4xl">Организация концертов</h1>
                 <p class="mt-5">Концертное агенство ООО "Бебра"</p>
                 <p>427001, г. Казань, ул. Большая Малая, 50/1, офис 505</p>
@@ -34,11 +34,6 @@ import Footer from '@/widgets/footer'
 
 <style scoped>
 main {
-    background: #FFFBEB;
-    background: linear-gradient(167deg, rgba(255, 251, 235, 1) 50%, #F8EEDF 50%);
-}
-
-main * {
     color: black;
 }
 

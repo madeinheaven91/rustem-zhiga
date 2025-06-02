@@ -1,14 +1,11 @@
 <script setup lang="ts">
-import Sidebar from '@/widgets/sidebar';
+import Header from '@/widgets/header';
 import Footer from '@/widgets/footer'
 </script>
 
 <template>
-    <Sidebar selected="contacts" />
-    <header class="p-2">
-        <RouterLink to="/" class="oswald-500 text-xl">РУСТЕМ ЖИГА</RouterLink>
-    </header>
-    <main class="h-screen p-10">
+    <Header selected="contacts" />
+    <main class="light-gradient-first h-screen p-10">
         <div class="flex gap-5 flex-col justify-between">
             <div>
                 <h1 class="text-4xl">Организация концертов</h1>
@@ -32,10 +29,6 @@ header {
 }
 
 main {
-    background: linear-gradient(167deg, #FFFBEB 50%, #F8EEDF 50%);
-}
-
-main * {
     color: black;
 }
 
